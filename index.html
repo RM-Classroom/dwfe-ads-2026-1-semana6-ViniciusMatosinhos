@@ -1,12 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>MotoGP 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <body class="bg-dark text-white">
+<header class="header container d-flex justify-content-between align-items-center py-3">
+    <h1 class="logo">TUDO SOBRE MOTOGP</h1>
+
+    <nav class="nav d-flex align-items-center gap-3">
+        <ul class="menu list-unstyled d-flex gap-3 mb-0">
+            <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Sobre</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Pilotos</a></li>
+        </ul>
+
+        <form class="search-form d-flex">
+            <input type="text" class="form-control" placeholder="Pesquisar">
+            <button type="submit" class="btn btn-light">Buscar</button>
+        </form>
+    </nav>
+</header>
+
+<main class="main container">
+
+<section class="introducao row align-items-center g-4">
+    <div class="introducao-img col-12 col-lg-6">
+        <img src="motogp.png" class="img-fluid" alt="MotoGP">
+    </div>
+
+    <div class="introducao-text col-12 col-lg-6">
+        <h2>História da MotoGP</h2>
+        <p>A MotoGP, criada em 1949, tornou-se a principal categoria de motovelocidade ao unir tecnologia avançada e grandes talentos...</p>
+        <p>Para 2026, a expectativa é de disputas equilibradas, com Marc Marquez defendendo o título, contra Marco Bezzechi e Jorge Martín, os grandes favoritos. Jovens pilotos e possíveis mudanças técnicas devem aumentar a competitividade, prometendo uma temporada imprevisível e emocionante.</p>
+    </div>
+</section>
+
+<section class="pilotos">
+    <h2 class="text-center my-5">PILOTOS - TEMPORADA 2026</h2>
+
+    <div class="pilotos-sequencia row g-4">
+
+        <!-- TODOS corrigidos -->
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <div class="piloto-img">
+                <img src="marquez.jpg" class="img-fluid" alt="MarcMarquez">
+            </div>
+            <h3 class="text-center mt-2">Marc Marquez #93</h3>
+            <p>Corridas: 210</p>
+            <p>Vitórias: 73</p>
+            <p>Pódios: 126</p>
+            <p>Poles: 74</p>
+            <p>Equipe: DUCATI</p>
+            <p>Títulos: 7</p>
+        </article>
     
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <div class="piloto-img">
+                <img src="pecco.jpg" class="img-fluid" alt="Bagnaia">
+            </div>
+            <h3 class="text-center mt-2">Pecco Bagnaia #63</h3>
+            <p>Corridas: 132</p>
+            <p>Vitórias: 31</p>
+            <p>Pódios: 59</p>
+            <p>Poles: 27</p>
+            <p>Equipe: DUCATI</p>
+            <p>Títulos: 2</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <div class="piloto-img">
+                <img src="marco.jpg" class="img-fluid" alt="Bezzechi">
+            </div>
+            <h3 class="text-center mt-2">Marco Bezzecchi #72</h3>
+            <p>Corridas: 177</p>
+            <p>Vitórias: 15</p>
+            <p>Pódios: 45</p>
+            <p>Poles: 14</p>
+            <p>Equipe: APRILIA</p>
+            <p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <div class="piloto-img">
+                <img src="jorge.jpg" class="img-fluid" alt="JorgeMartin">
+            </div>
+            <h3 class="text-center mt-2">Jorge Martin #89</h3>
+            <p>Corridas: 84</p>
+            <p>Vitórias: 8</p>
+            <p>Pódios: 34</p>
+            <p>Poles: 20</p>
+            <p>Equipe: APRILIA</p>
+            <p>Títulos: 1</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <div class="piloto-img">
+                <img src="brad.jpg" class="img-fluid" alt="BradBinder">
+            </div>
+            <h3 class="text-center mt-2">Brad Binder #33</h3>
+            <p>Corridas: 117</p>
+            <p>Vitórias: 2</p>
+            <p>Pódios: 11</p>
+            <p>Poles: 0</p>
+            <p>Equipe: KTM</p>
+            <p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <div class="piloto-img">
+                <img src="pedro.jpg" class="img-fluid" alt="PedroAcosta">
+            </div>
+            <h3 class="text-center mt-2">Pedro Acosta #37</h3>
+            <p>Corridas: 44</p>
+            <p>Vitórias: 0</p>
+            <p>Pódios: 12</p>
+            <p>Poles: 1</p>
+            <p>Equipe: KTM</p>
+            <p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <div class="piloto-img">
+                <img src="luca.jpg" class="img-fluid" alt="LucaMarini">
+            </div>
+            <h3 class="text-center mt-2">Luca Marini #10</h3>
+            <p>Corridas: 97</p>
+            <p>Vitórias: 0</p>
+            <p>Pódios: 2</p>
+            <p>Poles: 2</p>
+            <p>Equipe: HONDA</p>
+            <p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <div class="piloto-img">
+                <img src="joan.jpg" class="img-fluid" alt="JoanMir">
+            </div>
+            <h3 class="text-center mt-2">Joan Mir #36</h3>
+            <p>Corridas: 124</p>
+            <p>Vitórias: 1</p>
+            <p>Pódios: 15</p>
+            <p>Poles: 0</p>
+            <p>Equipe: HONDA</p>
+            <p>Títulos: 1</p>
+        </article>
+
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="fabio.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Fabio Quartararo #20</h3>
+            <p>Corridas: 136</p><p>Vitórias: 11</p><p>Pódios: 32</p><p>Poles: 21</p><p>Equipe: YAMAHA</p><p>Títulos: 1</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="alex.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Alex Rins #42</h3>
+            <p>Corridas: 148</p><p>Vitórias: 6</p><p>Pódios: 18</p><p>Poles: 0</p><p>Equipe: YAMAHA</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="digia.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Fabio Di Giannantonio #49</h3>
+            <p>Corridas: 82</p><p>Vitórias: 1</p><p>Pódios: 7</p><p>Poles: 3</p><p>Equipe: VR46</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="franco.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Franco Morbidelli #21</h3>
+            <p>Corridas: 145</p><p>Vitórias: 3</p><p>Pódios: 8</p><p>Poles: 2</p><p>Equipe: VR46</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="alexm.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Alex Marquez #73</h3>
+            <p>Corridas: 114</p><p>Vitórias: 3</p><p>Pódios: 17</p><p>Poles: 2</p><p>Equipe: GRESINI</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="fermin.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Fermin Aldeguer #54</h3>
+            <p>Corridas: 24</p><p>Vitórias: 1</p><p>Pódios: 3</p><p>Poles: 0</p><p>Equipe: GRESINI</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="zarco.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Johann Zarco #5</h3>
+            <p>Corridas: 169</p><p>Vitórias: 2</p><p>Pódios: 23</p><p>Poles: 8</p><p>Equipe: LCR</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="diogo.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Diogo Moreira #11</h3>
+            <p>Corridas: 3</p><p>Vitórias: 0</p><p>Pódios: 0</p><p>Poles: 0</p><p>Equipe: LCR</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="toprak.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Toprak Razgatlioglu #7</h3>
+            <p>Corridas: 3</p><p>Vitórias: 0</p><p>Pódios: 0</p><p>Poles: 0</p><p>Equipe: PRAMAC</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="jack.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Jack Miller #43</h3>
+            <p>Corridas: 202</p><p>Vitórias: 4</p><p>Pódios: 23</p><p>Poles: 2</p><p>Equipe: PRAMAC</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="enea.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Enea Bastianini #23</h3>
+            <p>Corridas: 94</p><p>Vitórias: 7</p><p>Pódios: 19</p><p>Poles: 2</p><p>Equipe: TECH3</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="maverick.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Maverick Viñales #12</h3>
+            <p>Corridas: 196</p><p>Vitórias: 10</p><p>Pódios: 35</p><p>Poles: 15</p><p>Equipe: TECH3</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="ogura.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Ai Ogura #79</h3>
+            <p>Corridas: 21</p><p>Vitórias: 0</p><p>Pódios: 0</p><p>Poles: 0</p><p>Equipe: TRACKHOUSE</p><p>Títulos: 0</p>
+        </article>
+    
+        <article class="piloto col-12 col-md-6 col-lg-3">
+            <img src="raul.jpg" class="img-fluid">
+            <h3 class="text-center mt-2">Raul Fernandez #25</h3>
+            <p>Corridas: 81</p><p>Vitórias: 1</p><p>Pódios: 3</p><p>Poles: 0</p><p>Equipe: TRACKHOUSE</p><p>Títulos: 0</p>
+        </article>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer text-center py-3">
+    <p>Atividade Prática - Semana 6</p>
+</footer>
+
 </body>
 </html>

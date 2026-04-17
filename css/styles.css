@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🔥 FORÇA TEMA ESCURO NO BOOTSTRAP */
+body {
+    background-color: black !important;
+    color: white !important;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    background-color: black;
+}
+
+/* LINKS */
+a {
+    color: white !important;
+}
+
+/* INPUT E BOTÃO (BOOTSTRAP SOBRESCREVE) */
+.form-control {
+    background-color: #111 !important;
+    color: white !important;
+    border: 1px solid #444;
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+.btn-light {
+    background-color: white;
+    color: black;
+}
+
+/* TITULOS */
+h1, h2, h3 {
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+/* INTRODUÇÃO */
+.introducao-text {
+    padding: 25px;
+    background-color: #111;
+}
+
+.introducao-text p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+/* PILOTOS */
+.pilotos-sequencia .piloto {
+    padding: 10px;
+    background-color: #111;
+    border: 2px solid red;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    height: 100%;
+}
+
+.pilotos-sequencia .piloto:hover {
+    transform: scale(1.05);
+}
+
+.pilotos-sequencia .piloto p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.pilotos-sequencia .piloto h3 {
+    text-align: center;
+}
+
+/* IMAGENS */
+.piloto-img img,
+.piloto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+/* CORES DOS CARDS */
+.pilotos-sequencia .piloto:nth-child(-n+2) {
+    border: 2px solid red;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+3):nth-child(-n+4) {
+    border: 2px solid #6a0dad;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+5):nth-child(-n+6) {
+    border: 2px solid #ff6a00;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+7):nth-child(-n+8) {
+    border: 2px solid #e60012;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+9):nth-child(-n+10) {
+    border: 2px solid #0033a0;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+11):nth-child(-n+12) {
+    border: 2px solid #ffeb3b;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+13):nth-child(-n+14) {
+    border: 2px solid #a7d8ff;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+15):nth-child(-n+16) {
+    border: 2px solid white;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+17):nth-child(-n+18) {
+    border: 2px solid #1e90ff;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+19):nth-child(-n+20) {
+    border: 2px solid #ff6a00;
+}
+
+.pilotos-sequencia .piloto:nth-child(n+21):nth-child(-n+22) {
+    border: 2px solid #00bfff;
+}
