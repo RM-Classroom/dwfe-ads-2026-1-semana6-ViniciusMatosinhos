@@ -4,24 +4,20 @@
     box-sizing: border-box;
 }
 
-/* 🔥 FORÇA TEMA ESCURO NO BOOTSTRAP */
-body {
+gitbody {
     background-color: black !important;
     color: white !important;
     font-family: Arial, sans-serif;
 }
 
-/* HEADER */
 .header {
     background-color: black;
 }
 
-/* LINKS */
 a {
     color: white !important;
 }
 
-/* INPUT E BOTÃO (BOOTSTRAP SOBRESCREVE) */
 .form-control {
     background-color: #111 !important;
     color: white !important;
@@ -37,7 +33,6 @@ a {
     color: black;
 }
 
-/* TITULOS */
 h1, h2, h3 {
     color: white;
 }
@@ -46,7 +41,6 @@ h2 {
     font-size: 50px;
 }
 
-/* INTRODUÇÃO */
 .introducao-text {
     padding: 25px;
     background-color: #111;
@@ -57,7 +51,6 @@ h2 {
     line-height: 1.7;
 }
 
-/* PILOTOS */
 .pilotos-sequencia .piloto {
     padding: 10px;
     background-color: #111;
@@ -81,7 +74,6 @@ h2 {
     text-align: center;
 }
 
-/* IMAGENS */
 .piloto-img img,
 .piloto img {
     width: 100%;
@@ -91,14 +83,12 @@ h2 {
     border-radius: 5px;
 }
 
-/* FOOTER */
 .footer {
     text-align: center;
     padding: 20px;
     background-color: black;
 }
 
-/* CORES DOS CARDS */
 .pilotos-sequencia .piloto:nth-child(-n+2) {
     border: 2px solid red;
 }
