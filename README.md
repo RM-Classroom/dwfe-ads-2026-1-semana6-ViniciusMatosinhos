@@ -10,18 +10,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Vinicius Matosinhos
+- Matricula: 916374
+- Proposta de projeto escolhida: Criação de uma página web sobre MotoGP e seus pilotos.
+- Breve descrição sobre seu projeto: Página com seção principal com uma breve história da MotoGp e área de pilotos (Entidade Secundária), usando o básico de HTML e CSS. Além disso é responsivo em desktop e mobile, via Bootstrap.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![<<  COLOQUE A IMAGEM AQUI >>](printdesktop.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![<<  COLOQUE A IMAGEM AQUI >>](printmobile.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
